@@ -1,0 +1,8 @@
+.titulo{
+    color: rgb(16, 177, 16);
+}
+.player{
+    margin-top: 262px;
+    display:flex;
+    justify-content: center;
+}

@@ -1,0 +1,18 @@
+.imagem{
+    width: 200px;
+    height: 300px;
+}
+
+.layout{
+    margin-top: 120px !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+}
+
+.formulario{
+    margin-left: 12px !important;
+    margin-right: 224px !important;
+}

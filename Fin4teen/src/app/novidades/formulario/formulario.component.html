@@ -1,0 +1,44 @@
+<body>
+  <form [formGroup]="cadastroForm" class="form-container">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Mantenha-se informado</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="row" style="display: flex; flex-direction: column; align-content: center; margin-left: -7px;">
+          <div class="col-md-6">
+            <mat-form-field class="full-width">
+              <input formControlName="primeiroNome" matInput placeholder="Primeiro nome"/>
+            </mat-form-field>
+          </div>
+          <div class="col-md-6">
+            <mat-form-field class="full-width">
+              <input
+                formControlName="sobrenome"
+                matInput
+                placeholder="Sobrenome"
+              />
+            </mat-form-field>
+          </div>
+          <div class="col-md-6">
+            <mat-form-field class="full-width">
+              <input formControlName="email" matInput placeholder="Email" />
+            </mat-form-field>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <mat-radio-group class="margin-left">
+                <mat-radio-button color="primary" value="masculino">Masculino </mat-radio-button>
+                <mat-radio-button color="primary" style="margin-left: 18px;" value="feminino">Feminino </mat-radio-button>
+              </mat-radio-group>
+            </div>
+          </div>
+        </div>
+      </mat-card-content>
+      <mat-card-actions>
+        <button click="salvar()" mat-raised-button color="primary" style="margin-left: 96px;">Enviar</button>
+      </mat-card-actions>
+    </mat-card>
+  </form>
+</body>
+
