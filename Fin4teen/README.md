@@ -7,7 +7,7 @@
  [Construção](#construção)
  [Possíveis Melhorias](#possíveis-melhorias)
  [Inicialização](#Development-server)
- [Regras](#Regras-de-negócio) 
+ [Regras de negócio](#Regras-de-negocio) 
 
  ## Descrição do Projeto <b>No aplicativo, há sessões de videoaulas, recomendações, que recomenda livros, filmes, séries e programas de TV. <br>   * [Instagram Fin4teen](https://www.instagram.com/fin4teenapp/)   
 
@@ -15,8 +15,8 @@
  
  ## Possíveis Melhorias <b>Responsividade</b>: Adequar layout responsivel para visualização em diferentes dispositivos mobile Apple.<br> <b>Testes</b>: Aplicação de testes unitários. 
   
- ## Development server
+ ## Development server <b>Development-server</b>
 
  Digite `ng serve` para o servidor de desenvolvimento. Navegue para `http://localhost:4200/Inicio`.
   
- ## Regras de negócio: Apenas existe um formulário para que os interessados recebam por email uma planilha de noticias  e atualizações do projeto.
+ ## Regras de negócio <b>Regras-de-negocio</b> Apenas existe um formulário para que os interessados recebam por email uma planilha de noticias  e atualizações do projeto.
