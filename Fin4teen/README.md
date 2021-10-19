@@ -2,7 +2,12 @@
 
  # Fin4teen  <b>Aplicativo de Educação Financeira.<br>  
 
- ## Tópicos    [Descrição do projeto](#descrição-do-projeto)    [Construção](#construção)    [Possíveis Melhorias](#possíveis-melhorias)    [Dependências](#dependencias)      [Build](#build) 
+ ## Tópicos    
+ [Descrição do projeto](#descrição-do-projeto)    
+ [Construção](#construção)
+ [Possíveis Melhorias](#possíveis-melhorias)
+ [Inicialização](#Development-server)
+ [Regras](#Regras-de-negócio) 
 
  ## Descrição do Projeto <b>No aplicativo, há sessões de videoaulas, recomendações, que recomenda livros, filmes, séries e programas de TV. <br>   * [Instagram Fin4teen](https://www.instagram.com/fin4teenapp/)   
 
