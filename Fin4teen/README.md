@@ -17,15 +17,13 @@ Fin4teen  <b>Aplicativo de Educação Financeira.<br>
 
   
 ## Descrição do Projeto
-<b>No aplicativo, há sessões de videoaulas, recomendações, que recomenda livros, filmes, séries e programas de TV. <br>
- 
- * [Instagram Fin4teen](https://www.instagram.com/fin4teenapp/)
+<b>Portal Web para fins de conhecimento sobre nossas ideias e receber novidades sobre o projeto. <br>
 
 ## Construção 
  construção Aplicação foi desenvolvida em Angular por meio do VSCode.
  
 ## Possíveis Melhorias
- <b>Responsividade</b>: Adequar layout responsivel para visualização em diferentes dispositivos mobile Apple. 
+ Layout, seguindo os padrões de UX e aperfeiçoando tecnicas de css e HTML. 
   
 ## Development server
  Digite `ng serve` para o servidor de desenvolvimento. Navegue para `http://localhost:4200/Inicio`.
