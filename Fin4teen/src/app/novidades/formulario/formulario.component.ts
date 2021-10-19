@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder } from '@angular/forms';
+import { FormBuilder,Validators } from '@angular/forms';
+
 
 @Component({
   selector: 'app-formulario',
@@ -8,17 +9,29 @@ import { FormBuilder } from '@angular/forms';
 })
 export class FormularioComponent{
 
-  constructor(private formBuilder:FormBuilder) { }
+  constructor(
+    private formBuilder:FormBuilder,
+    ) { }
+
+  
 
   cadastroForm = this.formBuilder.group({
-    primeiroNome:[''],
-    sobrenome:[''],
-    genero:[''],
-    email: [''],
+    primeiroNome:['', [Validators.required ,Validators.minLength(3), Validators.maxLength(28)]],
+    sobrenome:['', [Validators.required, Validators.minLength(3), Validators.maxLength(70)]],
+    genero:['', Validators.required],
+    email: ['', [Validators.required, Validators.email, Validators.minLength(8),Validators.maxLength(70)]],
   })
   
-  salvar(){
-    console.log('Form data is', this.cadastroForm.value);
+  
+
+  onSubmit(){
+    console.log(this.cadastroForm.value),
+    this.cadastroForm.reset();
+    (error: any) => alert('erro') 
+  }
+
+  getGenero(){
+    return
   }
 
 }

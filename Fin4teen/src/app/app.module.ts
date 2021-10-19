@@ -5,15 +5,16 @@ import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatCardModule} from '@angular/material/card';
+import {MatIconModule} from '@angular/material/icon';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {MatRadioModule} from '@angular/material/radio';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { NovidadesComponent } from './novidades/novidades.component';
 import { SobreNosComponent } from './sobreNos/sobreNos.component';
 import { FormularioComponent } from './novidades/formulario/formulario.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {MatRadioModule} from '@angular/material/radio';
 import { InicioComponent } from './inicio/inicio.component';
 
 @NgModule({
@@ -35,7 +36,8 @@ import { InicioComponent } from './inicio/inicio.component';
     FormsModule, 
     ReactiveFormsModule,
     MatCardModule,
-    MatRadioModule
+    MatRadioModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

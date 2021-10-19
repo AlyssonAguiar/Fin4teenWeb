@@ -1,8 +1,26 @@
 .titulo{
     color: rgb(16, 177, 16);
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.titulo{
+    font-size: 42px;
+}
+
+.descricao{
+    margin-top: 10px;
+    font-size: 38px;
+}
+
 .player{
-    margin-top: 262px;
+    margin-top: 48px;
     display:flex;
     justify-content: center;
 }
