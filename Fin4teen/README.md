@@ -35,6 +35,6 @@ Fin4teen  <b>Aplicativo de Educação Financeira.<br>
   
 ## Desenvolvedores
   O desenvolvimento foi realizado em conjunto. Cada desenvolvedor focou nas respectivas partes do projeto.
-  Alysson Aguiar: Sessão "Novidades"
-  Gabriel Braun: Sessão "Início"
-  Leonardo José Portes: "Sobre"
+  * Alysson Aguiar: Sessão "Novidades"
+  * Gabriel Braun: Sessão "Início"
+  * Leonardo José Portes: "Sobre"
